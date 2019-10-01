@@ -1,0 +1,8 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Window::Window(void)" (__imp_??0Window@sf@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Window::~Window(void)" (__imp_??1Window@sf@@UAE@XZ) referenced in function _main
+E:\SUPPORT\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\SUPPORT\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\SUPPORT\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\SUPPORT\SFML\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+F:\SFML\Airplane\Ariplane\Debug\Ariplane.exe : fatal error LNK1120: 2 unresolved externals
